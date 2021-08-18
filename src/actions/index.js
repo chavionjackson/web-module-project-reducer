@@ -2,6 +2,7 @@ export const ADD_ONE = "ADD_ONE";
 export const CLEAR_DISPLAY = "CLEAR_DISPLAY";
 export const APPLY_NUMBER = "APPLY_NUMBER";
 export const CHANGE_OPERATION = "CHANGE_OPERATION";
+export const SAVE_MEMORY = "SAVE_MEMORY";
 
 export const addOne = () => {
   return { type: ADD_ONE };
@@ -18,3 +19,7 @@ export const moreMath = (operator) => {
 export const clearDisplay = () => {
   return { type: CLEAR_DISPLAY };
 };
+
+export const saveMemory = () => {
+    return { type: SAVE_MEMORY }
+}
