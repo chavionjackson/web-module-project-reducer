@@ -31,5 +31,5 @@ export const applyMemory = (number) => {
 };
 
 export const clearMemory = () => {
-  return { type: CLEAR_MEMORY};
+  return { type: CLEAR_MEMORY };
 };

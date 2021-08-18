@@ -40,8 +40,8 @@ function App() {
   };
 
   const clearMem = () => {
-    dispatch(clearMemory())
-  }
+    dispatch(clearMemory());
+  };
 
   // const addNum = (num) => {
   //   dispatch(addOne(num))
